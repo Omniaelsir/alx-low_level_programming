@@ -3,25 +3,20 @@
 /**
  * main - Entry point
  *
- * Description: print alphabet in lower and upper case
+ * Description: prints the alphabet in lowercase
+ *		except q and e
  *
  * Return: returns (0) on success
 */
+
 int main(void)
 {
 	int x = 97;
-	int b = 65;
 
-	while (x <= 122)
+	while (x <= 122 && x != 101 || x != 113)
 	{
 		putchar(x);
 		x++;
 	}
-	while (b <= 90)
-	{
-		putchar(b);
-		b++;
-	}
-	putchar('\n');
 	return (0);
 }
