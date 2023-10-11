@@ -4,9 +4,12 @@
 
 int main(void)
 {
-	for (int x = 97; x <= 122; x++)
+	int x = 97;
+
+	while (x <= 122)
 	{
 		putchar(x);
+		x++;
 	}
 	return 0;
 }
