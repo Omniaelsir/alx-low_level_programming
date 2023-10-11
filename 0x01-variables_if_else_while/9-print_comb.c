@@ -15,7 +15,8 @@ int main(void)
 	while (x <= 8)
 	{
 		putchar(x);
-		putchar (', ');
+		putchar(',');
+		putchar(' ');
 	}
 	putchar(9);
 	return (0);
