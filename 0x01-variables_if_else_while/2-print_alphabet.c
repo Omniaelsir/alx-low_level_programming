@@ -1,6 +1,12 @@
 #include <stdio.h>
 
-/***/
+/**
+ * main - Entry point
+ *
+ * Description: prints alphabet in lower cases
+ *
+ * Return: returns (0) on success
+*/
 
 int main(void)
 {
@@ -11,5 +17,6 @@ int main(void)
 		putchar(x);
 		x++;
 	}
+	putchar('\n');
 	return 0;
 }
