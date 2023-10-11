@@ -6,18 +6,22 @@
  * Description: print all base 16 numbers
  *
  * Return: returns 0 on success
-:wq*/
+*/
 
 int main(void)
 {
 	int x = 48;
+	int b = 97;
 
-	while (x <= 70)
+	while (x <= 57)
 	{
-		if (58 <= x && x <= 64)
-			x++;
 		putchar(x);
 		x++;
+	}
+	while (b <= 102)
+	{
+		putchar(x);
+		b++;
 	}
 	putchar('\n');
 	return (0);
