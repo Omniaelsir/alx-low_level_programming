@@ -13,8 +13,9 @@ int main(void)
 {
 	int x = 97;
 
-	while (x <= 122 && x != 101 || x != 113)
+	while (x <= 122)
 	{
+		if (x == 113 || x == 101)
 		putchar(x);
 		x++;
 	}
