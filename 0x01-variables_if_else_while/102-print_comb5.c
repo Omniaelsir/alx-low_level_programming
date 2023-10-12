@@ -23,7 +23,7 @@ int main(void)
 				putchar((x % 10) + 48);
 				putchar(' ');
 				putchar((z / 10) + 48);
-				putchar((z % 19) + 48;
+				putchar((z % 19) + 48);
 
 				if (x != 98 || z != 99)
 				{
