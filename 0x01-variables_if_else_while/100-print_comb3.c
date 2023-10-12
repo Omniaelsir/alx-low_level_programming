@@ -3,10 +3,11 @@
 /**
  * main - Entry point
  *
- * Description: print all possible unique combinations 
- * 		of two digits
+ * Description: print all possible unique combinations
+ *		of two digits
  *
- * Return: returns (0) on success*/
+ * Return: returns (0) on success
+*/
 
 int main(void)
 {
