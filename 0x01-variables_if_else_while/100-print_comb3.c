@@ -11,18 +11,18 @@
 
 int main(void)
 {
-	int x = 48;
+	int x = 0;
 	int b;
 
-	while (x <= 57)
+	while (x <= 9)
 	{
-		b = 48;
-		while (b <= 57)
+		b = 0;
+		while (b <= 9)
 		{
 			if (x != b && x < b)
 			{
-				putchar(x);
-				putchar(b);
+				putchar(x + 48);
+				putchar(b + 48);
 
 				if (x + b != 17)
 				{
