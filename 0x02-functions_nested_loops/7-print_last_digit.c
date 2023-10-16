@@ -10,9 +10,13 @@
 
 int print_last_digit(int x)
 {
-	int y[] = x;
-	int z = y[-1];
+	int y;
 
-	_putchar(z);
+	if (x < 0)
+		y = -1 (x % 10);
+	else
+		y = x % 10;
+
+	_putchar(y + 48);
 	return (0);
 }
