@@ -8,10 +8,11 @@
  * Return: returns 0 on success
 */
 
-int print_last_digit(int x[])
+int print_last_digit(int x)
 {
-	int y = x[-1];
+	int y[] = x;
+	int z = y[-1];
 
-	_putchar(y);
+	_putchar(z);
 	return (0);
 }
