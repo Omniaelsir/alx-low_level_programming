@@ -18,5 +18,5 @@ int print_last_digit(int x)
 		y = x % 10;
 
 	_putchar(y + 48);
-	return (0);
+	return (y);
 }
