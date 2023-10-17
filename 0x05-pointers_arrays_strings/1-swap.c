@@ -3,7 +3,7 @@
 /**
  * swap_int - swaps the values of two numbers
  *
- * @n: function parameter
+ * @a: function parameter
  *
  * @b: function parameter
 */
