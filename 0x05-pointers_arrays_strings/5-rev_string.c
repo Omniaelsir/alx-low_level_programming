@@ -22,4 +22,4 @@ void rev_string(char *s)
 		s[x] = s[length - 1 - x];
 		s[length - 1 - x] = swap;
 	}
-
+}
