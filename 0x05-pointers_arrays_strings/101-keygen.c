@@ -20,6 +20,6 @@ int main(void)
 		summ += c;
 		putchar(c);
 	}
-	putchar(2772 - sum);
+	putchar(2772 - summ);
 	return (0);
 }
