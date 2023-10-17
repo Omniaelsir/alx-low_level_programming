@@ -14,7 +14,7 @@ void rev_string(char *s)
 	int x;
 	char swap;
 
-	for (length = 0; *s != '\0'; ++length)
+	for (length = 0; s != '\0'; ++length)
 		;
 
 	for (x = 0; x < length / 2; x++)
