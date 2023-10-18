@@ -19,7 +19,7 @@ void print_times_table(int n)
 		{
 			_putchar('0');
 
-			for(column = 1; column <= n; column++)
+			for (column = 1; column <= n; column++)
 			{
 				int mult = raw * column;
 
@@ -31,7 +31,5 @@ void print_times_table(int n)
 			}
 			_putchar('\n');
 		}
-	
-	
 	}
 }
