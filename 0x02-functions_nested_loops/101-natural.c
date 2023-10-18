@@ -10,7 +10,8 @@
 
 int main(void)
 {
-	int x, sum;
+	int x;
+       long int sum;
 
 	for (x = 0; x < 1024; x++)
 	{
@@ -19,5 +20,6 @@ int main(void)
 			sum += x;
 		}
 	}
-	return (sum);
+	printf("%ln \n", sum);
+	return (0);
 }
