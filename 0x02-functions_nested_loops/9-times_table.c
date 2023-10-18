@@ -17,14 +17,32 @@ void times_table(void)
 		{
 			sum = x * y;
 
-			if (y != 9)
+			if (sum > 10)
 			{
-				_putchar(sum + 0);
-				_putchar(',');
-				_putchar(' ');
+				if (y != 9)
+				{
+					_putchar((sum / 10) + 48);
+					_putchar((sum % 10) + 48);
+					_putchar(',');
+					_putchar(' ');
+				}
+				else
+					_putchar((sum / 10) + 48);
+					_putchar((sum % 10) + 48);
 			}
 			else
-				_putchar(sum + '0');
+			{
+				if ( y != 9)
+				{
+					
+					_putchar(sum + 48);
+					_putchar(',');
+					_putchar(' ');
+				}
+				else
+					_putchar(sum + 48)
+
+			}
 		}
 		_putchar('\n');
 	}
