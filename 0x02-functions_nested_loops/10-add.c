@@ -7,19 +7,12 @@
  *
  * @y: function parameter
  *
- * Return: 
+ * Return: returns the sum
 */
 
 int add(int x, int y)
 {
 	int sum = x + y;
 
-	if (sum < 10)
-		_putchar(sum % 10);
-	else
-	{
-		_putchar((sum / 10) + 48);
-		_putchar((sum % 10) + 48);
-	}
-	return (0);
+	return (sum);
 }
