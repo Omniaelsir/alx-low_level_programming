@@ -23,11 +23,31 @@ void print_times_table(int n)
 			{
 				int mult = raw * column;
 
+				if (mult > 99)
+				{
+				_putchar(',');
+				_putchar(' ');
+				_putchar((mult / 10) + 48);
+				_putchar((mult / 100) + 48);
+				_putchar((mult % 10) + 48);
+				}
+				else if (mult > 9 && mult <= 99)
+				{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar((mult / 10) + 48);
+				_putchar((mult % 10) + 48);
+				
+				}
+				else
+				{
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
 				_putchar(' ');
 				_putchar(mult + 48);
+				}
 			}
 			_putchar('\n');
 		}
