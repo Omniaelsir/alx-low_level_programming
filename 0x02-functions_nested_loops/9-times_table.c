@@ -17,7 +17,7 @@ void times_table(void)
 		{
 			sum = x * y;
 
-			if (sum > 10)
+			if (sum >= 10)
 			{
 				if (y != 9)
 				{
