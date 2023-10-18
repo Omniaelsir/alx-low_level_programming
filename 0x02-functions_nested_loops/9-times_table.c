@@ -23,7 +23,7 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-				_putchar(sum);
+				_putchar(sum % 10) + 48);
 			}
 			else
 			{
