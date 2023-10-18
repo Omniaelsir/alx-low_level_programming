@@ -16,7 +16,7 @@ int main(void)
 	{
 		if (x % 3 == 0 || x % 5 == 0)
 		{
-			sum+ = x;
+			sum += x;
 		}
 	}
 	return (sum);
