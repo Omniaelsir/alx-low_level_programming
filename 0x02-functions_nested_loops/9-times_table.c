@@ -18,19 +18,19 @@ void times_table(void)
 			_putchar('0');
 			sum = x * y;
 
-			if (sum >= 10)
+			if (sum < 10)
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar((sum / 10) + 48);
-				_putchar((sum % 10) + 48);
+				_putchar(' ');
+				_putchar((sum + 48);
 			}
 			else
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar(' ');
-				_putchar(sum + 48);
+				_putchar((sum / 10) + 48);
+				_putchar((sum % 10) + 48);
 
 			}
 		}
