@@ -19,12 +19,12 @@ void times_table(void)
 
 			if (y != 9)
 			{
-				_putchar(sum);
+				_putchar(sum + 0);
 				_putchar(',');
 				_putchar(' ');
 			}
 			else
-				_putchar(sum);
+				_putchar(sum + '0');
 		}
 		_putchar('\n');
 	}
