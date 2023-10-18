@@ -13,10 +13,10 @@ void times_table(void)
 
 	for (x = 0; x <= 9; x++)
 	{
+		_putchar('0');
+
 		for (y = 1; y <= 9; y++)
 		{
-			_putchar('0');
-
 			sum = x * y;
 
 			_putchar(',');
