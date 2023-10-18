@@ -17,7 +17,7 @@ void print_to_98(int n)
 		{
 			printf("%d", x);
 
-			if (x < 98)
+			if (x != 98)
 				printf(", ");
 		}
 	}
@@ -29,7 +29,7 @@ void print_to_98(int n)
 		{
 			printf("%d", y);
 
-			if (y > 98)
+			if (y != 98)
 				printf(", ");
 		}
 	}
