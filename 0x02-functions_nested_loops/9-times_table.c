@@ -27,20 +27,21 @@ void times_table(void)
 					_putchar(' ');
 				}
 				else
+				{
 					_putchar((sum / 10) + 48);
 					_putchar((sum % 10) + 48);
+				}
 			}
 			else
 			{
 				if ( y != 9)
-				{
-					
+				{	
 					_putchar(sum + 48);
 					_putchar(',');
 					_putchar(' ');
 				}
 				else
-					_putchar(sum + 48)
+					_putchar(sum + 48);
 
 			}
 		}
