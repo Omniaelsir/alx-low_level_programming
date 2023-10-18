@@ -25,14 +25,14 @@ void times_table(void)
 			if (sum < 10)
 			{
 				_putchar(' ');
-				_putchar((sum % 10) + 48);
 			}
+
 			else
 			{
 				_putchar((sum / 10) + 48);
-				_putchar((sum % 10) + 48);
-
 			}
+
+			_putchar((sum % 10) + 48);
 		}
 		_putchar('\n');
 	}
