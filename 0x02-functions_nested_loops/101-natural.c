@@ -11,7 +11,7 @@
 int main(void)
 {
 	int x;
-       long int sum;
+	long int sum;
 
 	for (x = 0; x < 1024; x++)
 	{
@@ -20,6 +20,6 @@ int main(void)
 			sum += x;
 		}
 	}
-	printf("%li \n", sum);
+	printf("%li", sum);
 	return (0);
 }
