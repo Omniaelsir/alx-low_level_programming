@@ -20,11 +20,11 @@ void times_table(void)
 			if (sum >= 10)
 			{
 				if (y != 9)
-				{
-					_putchar((sum / 10) + 48);
-					_putchar((sum % 10) + 48);
+				{	
 					_putchar(',');
 					_putchar(' ');
+					_putchar((sum / 10) + 48);
+					_putchar((sum % 10) + 48);
 				}
 				else
 				{
