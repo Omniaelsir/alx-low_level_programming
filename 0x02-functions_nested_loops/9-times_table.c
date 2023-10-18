@@ -34,10 +34,11 @@ void times_table(void)
 			}
 			else
 			{
-				if ( y != 9)
-				{	
+				if (y != 9)
+				{
 					_putchar(sum + 48);
 					_putchar(',');
+					_putchar(' ');
 					_putchar(' ');
 				}
 				else
