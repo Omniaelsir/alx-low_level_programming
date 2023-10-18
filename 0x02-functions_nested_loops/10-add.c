@@ -6,6 +6,8 @@
  * @x: function parameter
  *
  * @y: function parameter
+ *
+ * Return: 
 */
 
 int add(int x, int y)
@@ -13,7 +15,7 @@ int add(int x, int y)
 	int sum = x + y;
 
 	if (sum < 10)
-		_putchar(sum + 48);
+		_putchar(sum);
 	else
 	{
 		_putchar((sum / 10) + 48);
