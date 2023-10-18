@@ -18,18 +18,17 @@ void print_times_table(int n)
 		for (raw = 0; raw <= n; raw++)
 		{
 			_putchar('0');
-
 			for (column = 1; column <= n; column++)
 			{
 				int mult = raw * column;
 
 					_putchar(',');
 					_putchar(' ');
-
 				if (mult > 99)
 				{
 					_putchar((mult / 100) + 48);
 					_putchar((mult / 10) % 10 + 48);
+					_putchar((mult % 10) + 48);
 				}
 				else if (mult > 9 && mult <= 99)
 				{
