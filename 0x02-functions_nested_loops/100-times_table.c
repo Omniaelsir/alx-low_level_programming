@@ -25,8 +25,9 @@ void print_times_table(int n)
 
 				_putchar(',');
 				_putchar(' ');
-				_putchar(mult);
+				_putchar(mult + 48);
 			}
+			_putchar('\n');
 		}
 	
 	
