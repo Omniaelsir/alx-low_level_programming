@@ -16,7 +16,7 @@ int main(void)
 	long int c;
 	long int z = 0;
 
-	for (count = 1; count <= 33; count++)
+	for (count = 1; count <= 32; count++)
 	{
 		c = sum;
 		sum = sum + x;
