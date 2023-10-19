@@ -24,5 +24,6 @@ int main(void)
 		sum = sum + x;
 		x = c;
 	}
+	printf("\n");
 	return (0);
 }
