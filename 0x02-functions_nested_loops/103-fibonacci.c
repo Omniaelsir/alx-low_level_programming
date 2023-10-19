@@ -21,7 +21,7 @@ int main(void)
 		c = sum;
 		sum = sum + x;
 		x = c;
-		if (count % 2 == 0)
+		if (sum % 2 == 0)
 		{
 			z = z + sum;
 		}
