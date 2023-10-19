@@ -16,7 +16,7 @@ int main(void)
 	long int c;
 
 	printf("1");
-	for (count = 1; count <= 50; count++)
+	for (count = 1; count < 50; count++)
 	{
 		printf(", ");
 		printf("%li", sum);
