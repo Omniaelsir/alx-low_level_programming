@@ -26,6 +26,7 @@ int main(void)
 			z += sum;
 		}
 	}
-	printf("%ln", z);
+	printf("%li", z);
 	printf("\n");
+	return (0);
 }
