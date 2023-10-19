@@ -14,6 +14,7 @@ int main(void)
 	long int sum = 2;
 	long int x = 1;
 	long int c;
+	long int z = 0;
 
 	for (count = 0; count > 33; count++)
 	{
@@ -22,7 +23,6 @@ int main(void)
 		x = c;
 		if(count % 2 == 0)
 		{
-			long int z = 0;
 			z += sum;
 		}
 	}
