@@ -6,7 +6,7 @@
  * Return: return 0 on success
 */
 
-int main (void)
+int main(void)
 {
 	int count;
 	unsigned long c;
@@ -23,5 +23,5 @@ int main (void)
 		printf("%lu", sum);
 	}
 	printf("\n");
-	return(0);
+	return (0);
 }
