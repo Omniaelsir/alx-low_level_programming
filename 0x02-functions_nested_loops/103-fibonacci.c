@@ -21,9 +21,9 @@ int main(void)
 		c = sum;
 		sum = sum + x;
 		x = c;
-		if(count % 2 == 0)
+		if (count % 2 == 0)
 		{
-			z += sum;
+			z = z + sum;
 		}
 	}
 	printf("%li", z);
