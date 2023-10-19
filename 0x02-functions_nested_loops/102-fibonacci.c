@@ -19,7 +19,7 @@ int main(void)
 	for (count = 1; count <= 50; count++)
 	{
 		printf(", ");
-		printf("%lli", sum);
+		printf("%li", sum);
 		c = sum;
 		sum = sum + x;
 		x = c;
