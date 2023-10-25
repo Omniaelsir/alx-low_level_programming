@@ -20,7 +20,7 @@ int factorial(int n)
 
 	else
 	{
-		num *= factorial(n - 1)
+		num *= factorial(n - 1);
 		return (num);
 	}
 
