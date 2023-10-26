@@ -16,6 +16,8 @@ void more_numbers(void)
 	{
 		for (b = 0; b <= 14; b++)
 		{
+			x = b;
+
 			if (b > 9)
 			{
 				_putchar(49);
