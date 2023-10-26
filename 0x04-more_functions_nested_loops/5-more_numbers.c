@@ -8,13 +8,16 @@
 
 void more_numbers(void)
 {
-for (int n = 0; n <= 9; n++)
-{
-	for (int b = 1; b <= 14; b++)
+	int n;
+	int b;
+
+	for (n = 0; n <= 9; n++)
 	{
-		_putchar(b + 48);
+		for (b = 1; b <= 14; b++)
+		{
+			_putchar(b + 48);
+		}
+		_putchar('\n');
 	}
 	_putchar('\n');
-}
-_putchar('\n');
 }
