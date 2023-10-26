@@ -6,7 +6,7 @@
  * @c: function parameter
  *
  * Return: returns 1 if c is uppercase
- * 	returs 0 otherwise
+ *	returs 0 otherwise
 */
 
 int _isupper(int c)
