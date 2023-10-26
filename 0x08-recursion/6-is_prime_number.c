@@ -12,13 +12,14 @@
  *
  * @x: function parameter
  *
- * Return: */
+ * Return: returs 0, 1, pass
+*/
 
 int pass(int n, int x);
 
 int is_prime_number(int n)
 {
-	return(pass(n, 2));
+	return (pass(n, 2));
 }
 
 int pass(int n, int x)
@@ -30,6 +31,6 @@ int pass(int n, int x)
 		return (1);
 
 	else
-		return (pass(n, x +1));
+		return (pass(n, x + 1));
 
 }
