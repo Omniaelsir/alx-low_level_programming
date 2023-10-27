@@ -9,18 +9,21 @@
  *
  * @n: int function parameter
  *
- * Return: string*/
+ * Return: string
+*/
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int X = 0;
+	int X;
 	int Y;
+
+	X = 0;
 
 	while (dest[X])
 	{
 		X++;
 	}
-	for (Y = 0; Y < n && (src[Y] != '\0'); Y++)
+	for (Y = 0; Y < n && src[Y] != '\0'; Y++)
 	{
 		dest[X + Y] = src[Y];
 	}
