@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
- * is_prime_number - is n a prime or not prime number
+ *is_prime_number - is n a prime or not prime number
  *
- * @n: function paraeter
+ *@n: function paraeter
  *
- * Return: 1 if prime, 0 if not prime
+ *Return: 1 if prime, 0 if not prime
 */
+
 /**
- * pass - function to check if number is a multiple of n
+ * pass: checks if number is multiple of n
  *
- * @x: function parameter
+ *@x: function parameter
  *
- * Return: returs 0, 1, pass
+ *Return: returs 0, 1, pass
 */
 
 int pass(int n, int x);
